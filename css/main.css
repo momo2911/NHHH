@@ -38,6 +38,29 @@ body {
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,1);
 }
+
+.icon-facebook {
+  width: 12%;
+
+}
+
+.icon-instagram {
+  width: 12%;
+
+}
+
+.icon-youtube {
+  width: 12%;
+}
+
+.social-media {
+  padding-left: 4%;
+}
+
+#hotline {
+  white-space: nowrap;
+  overflow: auto;
+}
 /*
 .topnav {
   overflow: hidden;
@@ -118,11 +141,16 @@ body {
 }
 
 .hl-product-card img {
+/*  position: relative;
+  float: left;*/
   padding-top: 5%;
-  padding-left: 10%;
-  width: 100%;
-  height: 100%;
-}
+  padding-left: 15%;
+  width: 200px;
+  height: 200px;
+/*  background-position:50% 50%;
+  background-repeat:no-repeat;
+  background-size:cover;
+*/  }
 
 .hl-product-card-content {
   font-family: 'Averta';
@@ -304,6 +332,17 @@ body {
     font-size: 6vw;
   }
 
+  #Email {
+    float: left;
+    font-size: 3vw;
+  }
+
+  #hotline {
+    margin-left: 5%;
+  float: right;
+  font-size: 3vw;
+}
+
 .hl-product-card {
   width: 100%;
   margin-right: 5%;
@@ -423,6 +462,20 @@ body {
     h1 {
     font-size: 6vw;
   }
+
+  .icon-facebook {
+  width: 25%;
+
+}
+
+.icon-instagram {
+  width: 25%;
+
+}
+
+.icon-youtube {
+  width: 25%;
+}
   .ss2-icon img {
     width: 60%;
 }
@@ -508,6 +561,11 @@ footer p {
   flex-wrap: wrap;
 }
 
+.row-product p {
+  font-family: 'Averta-reg';
+  font-weight: bolder;
+}
+
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
@@ -530,6 +588,12 @@ footer p {
 
 }
 
+.row-product-title {
+  color: #ef4c24;
+  font-family: 'Averta-extra';
+  font-size: 1.1vw;
+}
+
 .product-card {
   width: 25%;
   padding: 20px;
@@ -542,16 +606,28 @@ footer p {
 }
 
 .product-card img {
+  position: relative;
+ /* float: left;*/
   padding-top: 5%;
   padding-left: 15%;
-  max-width: 90%;
-  max-height: 100%;
+  width: 100%;
+  height: 50%;
+/*  background-position:50% 50%;
+  background-repeat:no-repeat;
+  background-size:cover;
+*/  }
+
+.pname {
+    white-space: nowrap;
+    overflow: auto;
 }
 
 .product-card-content {
   font-family: 'Averta';
   margin-top: 5%;
+/* */
 }
+
 
 .product-card-content .intro {
   font-family: 'Averta-light';
@@ -559,7 +635,7 @@ footer p {
 
 .product-weight {
   font-family: 'Averta-light';
-  font-size: 12pt;
+  font-size: 0.8vw;
 }
 
 .see-more {
@@ -649,11 +725,17 @@ footer p {
 }
 
 .product-card2 img {
+  position: relative;
+ /* float: left;*/
   padding-top: 5%;
   padding-left: 15%;
-  max-width: 90%;
-  max-height: 100%;
-}
+  width: 100%;
+  height: 50%;
+/*  background-position:50% 50%;
+  background-repeat:no-repeat;
+  background-size:cover;
+*/  }
+
 
 
 @media screen and (min-width:0px) and (max-width: 480px){
